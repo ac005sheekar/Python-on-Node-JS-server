@@ -1,10 +1,10 @@
 const {PythonShell} = require("python-shell");
 
 let option = {
-    scriptPath: "",
+    scriptPath: "./Python-Node-JS-server",
     args: ["John", 45],
 };
-PythonShell.run("check.py", options, (err, res) => {
+PythonShell.run("./check.py", options, (err, res) => {
     if (err) console.log(err);
     if (res) console.log(res);
 });
