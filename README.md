@@ -1,6 +1,6 @@
 # Python-Node-JS-server
 
-ClI Commands:
+CLI Commands:
 
 npm install
 
